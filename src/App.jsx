@@ -5,7 +5,7 @@ import ThanksCard from "./Views/ThanksCard/ThanksCard";
 
 function App() {
   return (
-    <div className="card-container">
+    <div className="d-flex align-items-center justify-content-center card-container container">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<RatingCard />} />

@@ -1,6 +1,6 @@
 .card-container{
-    margin-top: 20vh;
-    display: flex;
+    margin-top: 20vh !important;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }

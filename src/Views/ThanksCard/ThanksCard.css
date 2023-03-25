@@ -1,0 +1,28 @@
+.thanks-icon-container img{
+    height: 5rem;
+}
+
+.selected{
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.4rem 1rem;
+}
+
+.text-container h3 , p{
+    font-weight: 700;
+}
+
+.btn-back{
+    background-color: hsl(25, 97%, 53%) !important;
+    color: white !important;
+    font-size: 15px !important;
+}
+
+.btn-back:hover{
+    transition: 0.3s all ease-in;
+    background-color: white !important;
+    color: hsl(25, 97%, 53%) !important;
+    font-size: 15px !important;
+}
