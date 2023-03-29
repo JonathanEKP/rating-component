@@ -9,12 +9,12 @@ function App() {
       <div className="d-flex align-items-center justify-content-center card-container">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<RatingCard />} />
+            <Route path="/rating-component/" element={<RatingCard />} />
             <Route path="/thanks" element={<ThanksCard />}></Route>
           </Routes>
         </BrowserRouter>
       </div>
-      <div class="attribution text-light text-center mt-lg-5 mt-4 px-2">
+      <div className="attribution text-light text-center mt-lg-5 mt-4 px-2">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor

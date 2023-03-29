@@ -25,7 +25,7 @@ function ThanksCard() {
           </p>
         </div>
         <div className="d-flex justify-content-center">
-        <Link className="btn-back text-decoration-none w-75 text-center rounded-4 p-1 fw-bold" to="/">RETURN</Link>
+        <Link className="btn-back text-decoration-none w-75 text-center rounded-4 p-1 fw-bold" to="/rating-component/">RETURN</Link>
 
         </div>
       </Card>
