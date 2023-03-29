@@ -2,3 +2,9 @@
     width: 25rem;
     background-color:#1B232E !important;
 }
+
+@media screen and (max-width: 425px) {
+    .card{
+        width: 20rem
+    }
+}

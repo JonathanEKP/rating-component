@@ -3,11 +3,10 @@ import Card from "../../Components/Card/Card";
 import "./ThanksCard.css";
 import iconThanks from "../../assets/icons/illustration-thank-you.svg";
 import { RateContext } from "../../Context/RateContext";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function ThanksCard() {
   const { rate } = useContext(RateContext);
-  const navigate = useNavigate();
 
   return (
     <section>
