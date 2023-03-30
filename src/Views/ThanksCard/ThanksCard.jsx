@@ -3,10 +3,16 @@ import Card from "../../Components/Card/Card";
 import "./ThanksCard.css";
 import iconThanks from "../../assets/icons/illustration-thank-you.svg";
 import { RateContext } from "../../Context/RateContext";
-import { Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function ThanksCard() {
-  const { rate } = useContext(RateContext);
+  const { rate, setRate } = useContext(RateContext);
+  const navigate = useNavigate()
+
+  const handleReturn = ()=>{
+    setRate()
+    navigate("/rating-component/")
+  }
 
   return (
     <section>
@@ -25,7 +31,7 @@ function ThanksCard() {
           </p>
         </div>
         <div className="d-flex justify-content-center">
-        <Link className="btn-back text-decoration-none w-75 text-center rounded-4 p-1 fw-bold" to="/rating-component/">RETURN</Link>
+        <button className="btn-back w-75 text-center rounded-4 p-1 fw-bold" onClick={()=>handleReturn()} >RETURN</button>
 
         </div>
       </Card>

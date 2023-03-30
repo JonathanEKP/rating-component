@@ -1,6 +1,12 @@
-.card-container{
+/* .card-container{
     margin-top: 15vh !important;
     /* display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center; 
+} */
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }

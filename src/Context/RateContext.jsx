@@ -19,7 +19,7 @@ export function RateContextProvider(props) {
   };
 
   return (
-    <RateContext.Provider value={{ rate, obtenerRate }}>
+    <RateContext.Provider value={{ rate, obtenerRate, setRate }}>
       {props.children}
     </RateContext.Provider>
   );
