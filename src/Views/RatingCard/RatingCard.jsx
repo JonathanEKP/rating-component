@@ -73,7 +73,7 @@ function RatingCard() {
         <div className="d-flex justify-content-center">
           <button
             type="button"
-            className="mt-4 btn btn-submit text-uppercase w-75 rounded-5 p-2 fw-bold"
+            className="mt-4 btn btn-submit text-uppercase w-100 rounded-5 p-2 fw-bold"
             onClick={handleSubmit}
           >
             S&nbsp;u&nbsp;b&nbsp;m&nbsp;i&nbsp;t
