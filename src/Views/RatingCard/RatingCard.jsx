@@ -32,6 +32,7 @@ function RatingCard() {
             type="button"
             className="btn-rate shadow-sm"
             onClick={() => obtenerRate(1)}
+            value="1"
           >
             1
           </button>
@@ -39,6 +40,7 @@ function RatingCard() {
             type="button"
             className="btn-rate shadow-sm"
             onClick={() => obtenerRate(2)}
+            value="2"
           >
             2
           </button>
@@ -46,6 +48,7 @@ function RatingCard() {
             type="button"
             className="btn-rate shadow-sm"
             onClick={() => obtenerRate(3)}
+            value="3"
           >
             3
           </button>
@@ -53,6 +56,7 @@ function RatingCard() {
             type="button"
             className="btn-rate shadow-sm"
             onClick={() => obtenerRate(4)}
+            value="4"
           >
             4
           </button>
@@ -60,6 +64,7 @@ function RatingCard() {
             type="button"
             className="btn-rate shadow-sm"
             onClick={() => obtenerRate(5)}
+            value="5"
           >
             5
           </button>

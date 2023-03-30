@@ -34,7 +34,7 @@
     color: white;
 }
 
-.btn-rate:focus{
+.btn-rate-active{
     transition: 0.3s all ease-out;
     background-color: hsl(217, 12%, 63%);
     color: white;

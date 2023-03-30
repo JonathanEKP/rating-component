@@ -1,6 +1,7 @@
 .card{
     width: 25rem;
     background-color:#1B232E !important;
+    height: 23rem !important;
 }
 
 @media screen and (max-width: 425px) {
